@@ -1,0 +1,76 @@
+{
+  "assessment_year": "AY 2026-27",
+  "financial_year": "FY 2025-26",
+
+  "basic_exemption": {
+    "old_regime": 250000,
+    "new_regime": 400000
+  },
+
+  "tax_slabs": {
+    "old_regime": [
+      {"upto": 250000, "rate": 0},
+      {"upto": 500000, "rate": 0.05},
+      {"upto": 1000000, "rate": 0.20},
+      {"above": 1000000, "rate": 0.30}
+    ],
+
+    "new_regime": [
+      {"upto": 400000, "rate": 0},
+      {"upto": 800000, "rate": 0.05},
+      {"upto": 1200000, "rate": 0.10},
+      {"upto": 1600000, "rate": 0.15},
+      {"upto": 2000000, "rate": 0.20},
+      {"upto": 2400000, "rate": 0.25},
+      {"above": 2400000, "rate": 0.30}
+    ]
+  },
+
+  "rebate": {
+    "old_regime": {
+      "section": "87A",
+      "max_rebate": 12500,
+      "tax_free_income": 500000
+    },
+    "new_regime": {
+      "section": "87A",
+      "max_rebate": 60000,
+      "tax_free_income": 1200000
+    }
+  },
+
+  "standard_deduction": {
+    "old_regime": 50000,
+    "new_regime": 75000
+  },
+
+  "deductions": {
+
+    "80C": {
+      "old_regime": 150000,
+      "new_regime": 0
+    },
+
+    "80D": {
+      "old_regime_self_family": 25000,
+      "old_regime_senior": 50000,
+      "new_regime": 0
+    },
+
+    "home_loan_interest": {
+      "old_regime_self_occupied": 200000,
+      "new_regime_self_occupied": 0,
+      "let_out_property": "allowed_both"
+    },
+
+    "hra": {
+      "old_regime": "allowed",
+      "new_regime": "not_allowed"
+    },
+
+    "nps_80ccd_2": {
+      "old_regime": "10_percent_basic",
+      "new_regime": "14_percent_basic"
+    }
+  }
+}
